@@ -28,7 +28,7 @@ function my_youtube_video_shortcode( $atts ) {
     $output = '';
 
     if ( ! empty( $channel_id ) ) {
-        $api_key = 'YOUR_YOUTUBE_API_KEY';
+        $api_key = 'AIzaSyD1D50OgZ89nQ9vRgZCOPjmnGlyoSUhBa4';
 
         $response = wp_remote_get( "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={$channel_id}&maxResults={$number}&key={$api_key}" );
 
