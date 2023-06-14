@@ -3,8 +3,8 @@
 Plugin Name: My YouTube Plugin
 Description: Display YouTube videos from your channel.
 Version: 1.0
-Author: Your Name
-Author URI: Your Website
+Author: Josh Hellman
+Author URI: https://valueneer.pro/
 */
 
 // Enqueue YouTube API script
